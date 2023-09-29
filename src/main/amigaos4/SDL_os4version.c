@@ -19,7 +19,7 @@
   3. This notice may not be removed or altered from any source distribution.
 */
 
-#ifdef __AMIGADATE__
+#if defined (__AMIGADATE__) && defined (SDL_GL4ES)
 static const char* const version __attribute__ ((used)) = "\0$VER: libSDL2_gl4es.so 28.0 (" __AMIGADATE__ ")\0";
 #endif
 
